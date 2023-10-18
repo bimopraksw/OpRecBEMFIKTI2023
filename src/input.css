@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  border: 2px slid red; /* Menambahkan border 1px solid hitam ke semua elemen */
+}
+
+.carousel-slide {
+  display: none;
+}
+.carousel-slide.active {
+  display: block;
+}
